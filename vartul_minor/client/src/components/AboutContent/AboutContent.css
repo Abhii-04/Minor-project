@@ -1,0 +1,78 @@
+:root {
+    --background-color: #f7f7f7;
+    --text-color: #333333;
+    --accent-color: #fca311;
+    --card-bg: #ffffff;
+    --card-border: #eaeaea;
+    --hover-bg: #333333;
+    --hover-text-color: #ffffff;
+}
+
+/* Base Styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Search Section */
+.search-section {
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: var(--hover-bg);
+    color: var(--hover-text-color);
+    border-bottom: 3px solid var(--accent-color);
+}
+
+.search-section input[type="text"] {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    border: 1px solid var(--card-border);
+    transition: box-shadow 0.3s, transform 0.2s, width 0.3s;
+}
+
+/* Categories Section */
+.categories {
+    background-color: var(--background-color);
+    border-top: 2px solid var(--card-border);
+}
+
+.category {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    border: 1px solid var(--card-border);
+}
+
+.category:hover {
+    background-color: var(--accent-color);
+    color: var(--hover-text-color);
+}
+
+/* Product Listings */
+.product-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+}
+
+.product-card h3 {
+    color: var(--text-color);
+}
+
+.product-card .price {
+    color: var(--accent-color);
+}
+
+/* Call-to-Action Button */
+button {
+    background-color: var(--accent-color);
+    color: var(--hover-text-color);
+}
+
+button:hover {
+    background-color: var(--hover-bg);
+    color: var(--hover-text-color);
+}
