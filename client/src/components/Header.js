@@ -8,7 +8,7 @@ class Header extends  Component{
     render(){
         return(
             <header id="wrap-header" className="color-inher">
-                <div className="top-header">
+                {/* <div className="top-header">
                 <div className="container">
                     <div className="row">
                     <div className="col-sm-6 col-md-6 col-lg-6 hidden-xs">
@@ -44,23 +44,23 @@ class Header extends  Component{
                     </div>
                     </div>
                 </div>
-                </div>
+                </div> */}
     
                 <div className="menu-bg">
-                <div className="container">
+                <div className="container" style={{float: "right", marginRight:80}}>
                     <div className="row">
-                    <div className="col-md-3 col-lg-3">
+                    {/* <div className="col-md-3 col-lg-3">
                         <a className="logo">
                         <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo" />
                         </a>
-                    </div>
+                    </div> */}
                     <div className="col-md-9 col-lg-9">
-                        <div className="hotline">
+                        {/* <div className="hotline">
                         <span className="m-r-lg-10">Need support? Call us:</span>
                         <a href="tel:01686813774">
                             <i className="fa fa-phone" />0123-456-789
                         </a>
-                        </div>
+                        </div> */}
                         <div className="clearfix" />
     
                         <div className="main-menu">

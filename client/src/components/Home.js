@@ -37,9 +37,9 @@ class Home extends Component{
                             <div className="product-caption">
                                 <h4 className="product-name">
                                 <a  >
-                                    HYUNDAI ELANTRA 2016 NEW MODEL / <b>new</b>
+                                    HYUNDAI ELANTRA 2016 NEW MODEL &gt; <b>new</b>
                                 </a>
-                                <span className="f-18"> $201,000</span>
+                                <span className="f-18"> Rs.201,000</span>
                                 </h4>
                             </div>
                             <ul className="absolute-caption">
@@ -66,9 +66,9 @@ class Home extends Component{
                             <div className="product-caption">
                                 <h4 className="product-name">
                                 <a  >
-                                    KIA SOUL, BRAND NEW MODEL 2016 > <b>used</b>
+                                    KIA SOUL, BRAND NEW MODEL 2016  <b>used</b>
                                 </a>
-                                <span className="f-18"> $201,000</span>
+                                <span className="f-18"> Rs.201,000</span>
                                 </h4>
                             </div>
                             <ul className="absolute-caption">
@@ -97,7 +97,7 @@ class Home extends Component{
                                 <a  >
                                     FORD MUSTANG 2016 TURBO / <b>used</b>
                                 </a>
-                                <span className="f-18"> $201,000</span>
+                                <span className="f-18"> Rs.201,000</span>
                                 </h4>
                             </div>
                             <ul className="absolute-caption">
@@ -126,7 +126,7 @@ class Home extends Component{
                                 <a  >
                                     HYUNDAI VELOSTER TURBO SPORT / <b>used</b>
                                 </a>
-                                <span className="f-18"> $201,000</span>
+                                <span className="f-18"> Rs.201,000</span>
                                 </h4>
                             </div>
                             <ul className="absolute-caption">
@@ -155,7 +155,7 @@ class Home extends Component{
                                 <a  >
                                     HYUNDAI ELANTRA 2016 NEW MODEL / <b>used</b>
                                 </a>
-                                <span className="f-18"> $201,000</span>
+                                <span className="f-18"> Rs.201,000</span>
                                 </h4>
                             </div>
                             <ul className="absolute-caption">
@@ -184,7 +184,7 @@ class Home extends Component{
                                 <a  >
                                     BMW , NAVI, LEATHER, ABS / <b>used</b>
                                 </a>
-                                <span className="f-18"> $201,000</span>
+                                <span className="f-18"> Rs.201,000</span>
                                 </h4>
                             </div>
                             <ul className="absolute-caption">
